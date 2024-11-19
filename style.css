@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #a315c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    background-color: #820586;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.weather-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info {
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #641adb;
+}
+
+#descricao {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+#temperatura, #umidade {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.icon img {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #5c0994;
+}
+
+footer p {
+    font-size: 1rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.exemplo.com/imagem-fundo.jpg'); 
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #8b0ab3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(181, 14, 223, 0.5); 
+    color: white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.search-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#cidade-input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #680b85;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ab25d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #580d7a;
+}
+
+.weather-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    background-image: url('https://www.exemplo.com/imagem-clima.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: rgb(111, 2, 184);
+}
+
+.weather-info {
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #7d09b3;
+}
+
+#descricao {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+#temperatura, #umidade {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.icon img {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #7126b8;
+}
+
+footer p {
+    font-size: 1rem;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://private-user-images.githubusercontent.com/156427878/387638095-4e26f7a9-98c3-4f15-92e0-363d1c2499d5.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzIwMTczNjgsIm5iZiI6MTczMjAxNzA2OCwicGF0aCI6Ii8xNTY0Mjc4NzgvMzg3NjM4MDk1LTRlMjZmN2E5LTk4YzMtNGYxNS05MmUwLTM2M2QxYzI0OTlkNS5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMTE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTExOVQxMTUxMDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wYWVhMjZjMDExZDRhY2RlYTlkODgwNjNmODgxOGIxNTZmOTcxOTUwZWNmYTM4NzZkNThjNzNmOWQyYzRmNzI0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Llod1ng5wnIrz4orTA2GEryqP20o8Z4okDG86hWcBB8'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    color: #5f0a91;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}

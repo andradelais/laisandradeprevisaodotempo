@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Previsão do Tempo</h1>
+    </header>
+    
+        <section class="search-container">
+            <input type="text" id="cidade-input" placeholder="Digite o nome da cidade">
+            <button onclick="getWeather()">Buscar</button>
+        </section>
+        <section class="weather-container">
+        <div class="weather-info">
+            <h2 id="cidade">Cidade</h2>
+            <p id="descricao">Descrição do clima</p>
+            <p id="temperatura">Temperatura: 25°C</p>
+            <p id="umidade">Umidade: 70%</p>
+        </div>
+
+        <div class="icon">
+            <img id="icone-clima" src="https://static.vecteezy.com/ti/vetor-gratis/p3/17622628-de-icone-de-previsao-do-tempo-nuvens-e-luz-do-sol-vetor.jpg" alt="Ícone do clima">
+        </div>
+    </section>
+
+    <footer>
+        <p>by laisandrade</p>
+    </footer>
+</body>
+</html>
